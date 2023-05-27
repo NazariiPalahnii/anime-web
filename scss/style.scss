@@ -1,0 +1,16 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// basic
+@import './basic/config';
+@import './basic/costimization';
+@import './basic/maxins';
+
+//sections
+@import './sections/navbar';
+@import './sections/intro-section';
+@import './sections/news';
+@import './sections/recommend';
+@import './sections/coming-soon';
+@import './sections/footer';

@@ -1,0 +1,95 @@
+.intro {
+	background: url('/images/intro-section/Group8.svg') no-repeat right;
+	max-width: 1400px;
+	margin: 0 auto;
+	&__catalog {
+		padding: 210px 0px 0px 0px;
+		display: flex;
+		align-items: center;
+		& h2 {
+			font-size: 19px;
+			font-weight: 600;
+			position: relative;
+			&:after {
+				content: '';
+				background: $color-btn;
+				height: 2px;
+				width: 105px;
+				position: absolute;
+				top: 30px;
+				right: 0px;
+			}
+		}
+		& p {
+			margin: 5px 0px 0px 5px;
+			font-size: 14px;
+			color: $color-text;
+		}
+	}
+
+	&__text {
+		margin: 24px 0px 0px 0px;
+		.intro__title {
+			width: 350px;
+			font-weight: 500;
+			font-size: 32px;
+			& span {
+				color: $color-btn;
+			}
+		}
+		.intro__p {
+			margin: 29px 0px 27px 0px;
+			width: 300px;
+			font-size: 16px;
+			color: $color-text;
+		}
+	}
+
+	&__look {
+		display: flex;
+		align-items: center;
+		padding: 0px 0px 210px 0px;
+		.intro__btn {
+			width: 188px;
+			height: 37px;
+			border-radius: 5px;
+			border: none;
+			background: $color-btn;
+			& a {
+				font-size: 14px;
+				color: $color-title;
+				text-decoration: none;
+				& .bx {
+					font-size: 20px;
+					position: relative;
+					top: 3px;
+				}
+			}
+		}
+		.intro__ul {
+			margin: 0px 0px 0px 30px;
+			list-style-type: disc;
+			color: $color-btn;
+			& li {
+				& a {
+					text-decoration: none;
+					color: $color-title;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.intro {
+		background: url(/images/intro-section/Group8\(1\).svg) no-repeat right;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.intro {
+		background: url(/images/intro-section/Group199.svg) no-repeat center top;
+		width: 100%;
+		height: 100%;
+	}
+}
